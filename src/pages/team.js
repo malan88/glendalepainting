@@ -11,6 +11,7 @@ const Team = styled.div`
     padding: 5rem;
     width: 75%;
     margin: 0 auto;
+    justify-content: space-between;
     ${breakpoints.vp13} {
         width: 85%;
     }
