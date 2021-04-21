@@ -445,7 +445,7 @@ export const BGImg = graphql`
     fragment BGImg on File {
         childImageSharp {
             fluid(
-                quality: 85
+                quality: 75
                 maxWidth: 1920
                 duotone: { highlight: "#000000", shadow: "#000000", opacity: 50 }
                 toFormat: PNG
@@ -460,7 +460,7 @@ export const DuoToneImg = graphql`
     fragment DuoToneImg on File {
         childImageSharp {
             fluid(
-                quality: 85
+                quality: 75
                 maxWidth: 1920
                 duotone: { highlight: "#f00e2e", shadow: "#000000" }
                 toFormat: PNG
