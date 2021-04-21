@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export const TagsFilter = ({ selectedFilter, tags, handleTagClick }) => {
     const [tagButtonText, setTagButtonText] = useState(false);
-    let selectedIndex = tags.findIndex(tag => tag[0] === selectedFilter);
-    let sliceIndex = selectedIndex > 10 ? selectedIndex + 1 : 10;
-    let displayedTags = tagButtonText ? tags : tags.slice(0, sliceIndex);
+    //let selectedIndex = tags.findIndex(tag => tag[0] === selectedFilter);
+    //let sliceIndex = selectedIndex > 10 ? selectedIndex + 1 : 10;
+    // let displayedTags = tagButtonText ? tags : tags.slice(0, sliceIndex);
 
     return (
         <FilterContainer>

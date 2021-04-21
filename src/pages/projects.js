@@ -45,6 +45,7 @@ const ProjectsPage = ({ data }) => {
             filteredProjects = filteredProjects.filter(project => {
                 let projectTags = project.node.frontmatter.tags;
                 if (projectTags.includes(pageInfo.filter)) return project;
+                return null
             });
         }
 
